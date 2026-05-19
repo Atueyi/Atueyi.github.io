@@ -66,8 +66,8 @@
                 <div class="image-gallery">
 
                     <div class="gallery-item large">
-                        <img src="../assets/images/Resource_Dashboard.png">
-                            alt="Timesheet Dashboard Overview">
+                        <img src="../assets/images/Resource_Dashboard.png"
+     alt="Timesheet Dashboard Overview">
                     </div>
 
                 </div>
