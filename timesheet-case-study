@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Case Study | Ebube Atueyi</title>
+
+    <link rel="icon" type="image/png" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon-32x32.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="container nav-case-study">
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="case-study-hero">
+        <div class="container">
+
+            <div class="tech-stack hero-stack">
+                <span>Power BI</span>
+                <span>Excel</span>
+                <span>DAX</span>
+                <span>Power Query</span>
+            </div>
+
+            <h1>Resource Utilization & Timesheet Analytics Dashboard</h1>
+
+            <p>
+                Interactive Power BI dashboard designed to monitor workforce utilization,
+                billable hours, budget performance, and operational reporting metrics
+                across reporting clients and employees.
+            </p>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="case-study-main">
+        <div class="container">
+
+            <!-- DASHBOARD PREVIEW -->
+            <section class="case-study-section">
+
+                <h2>Dashboard Overview</h2>
+
+                <div class="image-gallery">
+
+                    <div class="gallery-item large">
+                        <img src="assets/images/timesheet_dashboard.png"
+                            alt="Timesheet Dashboard Overview">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- PROJECT HIGHLIGHTS -->
+            <section class="case-study-section">
+
+                <h2>Project Highlights</h2>
+
+                <div class="breakdown-grid">
+
+                    <div class="breakdown-card">
+                        <h3><i class="fas fa-chart-pie"></i> Workforce Utilization</h3>
+
+                        <p>
+                            Built interactive KPI reporting to monitor employee
+                            utilization rates, workforce capacity, and operational
+                            performance across reporting periods.
+                        </p>
+                    </div>
+
+                    <div class="breakdown-card">
+                        <h3><i class="fas fa-clock"></i> Timesheet Reporting</h3>
+
+                        <p>
+                            Developed visual reporting for tracking budget hours,
+                            actual hours, and billable hours to support operational
+                            planning and resource management.
+                        </p>
+                    </div>
+
+                    <div class="breakdown-card">
+                        <h3><i class="fas fa-database"></i> Data Modeling</h3>
+
+                        <p>
+                            Implemented dimensional modeling using fact and dimension
+                            tables with DAX calculations and Power Query transformations
+                            for efficient reporting and analysis.
+                        </p>
+                    </div>
+
+                    <div class="breakdown-card">
+                        <h3><i class="fas fa-lightbulb"></i> Operational Insights</h3>
+
+                        <p>
+                            Enabled stakeholders to identify utilization trends,
+                            workload imbalances, and client-level performance patterns
+                            through interactive dashboard visualizations.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- FOOTER BUTTON -->
+            <div class="case-study-footer">
+
+                <a href="https://github.com/Atueyi"
+                    target="_blank"
+                    class="btn">
+
+                    View GitHub Profile
+
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <p>
+                &copy;
+                <script>document.write(new Date().getFullYear());</script>
+                Ebube Atueyi. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
