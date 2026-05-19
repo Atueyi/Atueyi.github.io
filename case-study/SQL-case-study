@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Case Study | Ebube Atueyi</title>
+
+    <link rel="icon" type="image/png" href="../favicon-32x32.png">
+    <link rel="apple-touch-icon" href="../favicon-32x32.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="container nav-case-study">
+
+            <a href="../index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                Back to Portfolio
+            </a>
+
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="case-study-hero">
+
+        <div class="container">
+
+            <div class="tech-stack hero-stack">
+                <span>SQL Server</span>
+                <span>T-SQL</span>
+                <span>SSMS</span>
+            </div>
+
+            <h1>AdventureWorks Sales Analysis Using SQL</h1>
+
+            <p>
+                Performed SQL-based exploratory sales analysis using the
+                AdventureWorks database to uncover revenue trends,
+                identify top-performing products, analyze regional sales
+                performance, and apply advanced SQL techniques including
+                joins, aggregations, and window functions.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <main class="case-study-main">
+
+        <div class="container">
+
+            <!-- SCREENSHOT GALLERY -->
+            <section class="case-study-section">
+
+                <h2>SQL Analysis Overview</h2>
+
+                <div class="image-gallery">
+
+                    <div class="gallery-item large">
+                        <img src="../assets/images/Product_Ranking.png"
+                            alt="SQL Product Ranking Query">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="../assets/images/Total_Revenue.png"
+                            alt="SQL Revenue Analysis">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="../assets/images/Territory_analysis.png"
+                            alt="SQL Territory Analysis">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- PROJECT HIGHLIGHTS -->
+            <section class="case-study-section">
+
+                <h2>Project Highlights</h2>
+
+                <div class="breakdown-grid">
+
+                    <div class="breakdown-card">
+
+                        <h3>
+                            <i class="fas fa-dollar-sign"></i>
+                            Revenue Analysis
+                        </h3>
+
+                        <p>
+                            Performed sales revenue analysis using aggregate
+                            SQL functions to evaluate overall business performance
+                            across the AdventureWorks sales dataset.
+                        </p>
+
+                    </div>
+
+                    <div class="breakdown-card">
+
+                        <h3>
+                            <i class="fas fa-box"></i>
+                            Product Performance
+                        </h3>
+
+                        <p>
+                            Identified top-performing products using joins,
+                            grouping, and revenue aggregation techniques to
+                            analyze product-level sales contribution.
+                        </p>
+
+                    </div>
+
+                    <div class="breakdown-card">
+
+                        <h3>
+                            <i class="fas fa-globe"></i>
+                            Regional Sales Analysis
+                        </h3>
+
+                        <p>
+                            Analyzed territory-level sales performance to uncover
+                            regional business trends and compare revenue generation
+                            across different sales territories.
+                        </p>
+
+                    </div>
+
+                    <div class="breakdown-card">
+
+                        <h3>
+                            <i class="fas fa-code"></i>
+                            Advanced SQL Techniques
+                        </h3>
+
+                        <p>
+                            Applied advanced SQL concepts including joins,
+                            aggregations, GROUP BY operations, ORDER BY sorting,
+                            and window functions such as RANK() for analytical reporting.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- DATASET INFO -->
+            <section class="case-study-section">
+
+                <div class="breakdown-card">
+
+                    <h3>
+                        <i class="fas fa-database"></i>
+                        Dataset Information
+                    </h3>
+
+                    <p>
+                        This project utilizes the Microsoft AdventureWorks2012
+                        sample database containing realistic sales, customer,
+                        product, and territory business data for SQL analysis
+                        and reporting practice.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- FOOTER BUTTON -->
+            <div class="case-study-footer">
+
+                <a href="https://github.com/Atueyi"
+                    target="_blank"
+                    class="btn">
+
+                    View GitHub Profile
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Ebube Atueyi. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
